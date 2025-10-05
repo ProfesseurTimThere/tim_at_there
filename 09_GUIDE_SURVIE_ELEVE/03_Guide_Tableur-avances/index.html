@@ -2,7 +2,7 @@
         <html>
         <head>
             <meta charset="UTF-8">
-            <title>&#x1f4c8; GUIDE 3 &colon; LE TABLEUR AVANC&Eacute;</title>
+            <title>GUIDE 3 &colon; LE TABLEUR AVANCE</title>
             <style>
 /* From extension vscode.github */
 /*---------------------------------------------------------------------------------------------
@@ -138,68 +138,68 @@
         
         </head>
         <body class="vscode-body vscode-light">
-            <h1 id="-guide-3--le-tableur-avancé">📈 GUIDE 3 : LE TABLEUR AVANCÉ</h1>
-<h3 id="objectif--analyser-et-synthétiser-de-gros-volumes-de-données-fonctions-conditionnelles-tcd">OBJECTIF : Analyser et synthétiser de gros volumes de données (Fonctions Conditionnelles, TCD)</h3>
-<p>Ce guide s'adresse aux élèves qui maîtrisent les bases (Guide 2). Ici, nous transformons les données brutes en informations stratégiques, indispensables pour les rapports techniques et de gestion.</p>
+            <h1 id="guide-3--le-tableur-avance">GUIDE 3 : LE TABLEUR AVANCE</h1>
+<h3 id="objectif--analyser-et-synthetiser-de-gros-volumes-de-donnees-fonctions-conditionnelles-tcd">OBJECTIF : Analyser et synthetiser de gros volumes de donnees (Fonctions Conditionnelles, TCD)</h3>
+<p>Ce guide s'adresse aux eleves qui maitrisent les bases (Guide 2). Ici, nous transformons les donnees brutes en informations strategiques, indispensables pour les rapports techniques et de gestion.</p>
 <hr>
 <h2 id="1-le-conditionnel--le-pouvoir-du-si">1. LE CONDITIONNEL : Le Pouvoir du &quot;SI&quot;</h2>
-<p>Ces formules permettent d'analyser vos données uniquement si elles remplissent un ou plusieurs critères précis.</p>
+<p>Ces formules permettent d'analyser vos donnees uniquement si elles remplissent un ou plusieurs criteres precis.</p>
 <h3 id="11-fonction-si-le-test-logique">1.1 Fonction =SI() (Le Test Logique)</h3>
-<p>Cette fonction est la base de toute prise de décision automatisée dans un tableau.</p>
+<p>Cette fonction est la base de toute prise de decision automatisee dans un tableau.</p>
 <ul>
-<li><strong>Rôle :</strong> Tester si une condition est remplie.</li>
+<li><strong>Role :</strong> Tester si une condition est remplie.</li>
 <li><strong>Syntaxe :</strong> <code>=SI(test_logique; valeur_si_vrai; valeur_si_faux)</code></li>
 <li><strong>Exemple :</strong> Vous voulez savoir si l'objectif de vente est atteint (colonne A &gt; 50).
-<code>=SI(A2&gt;50; &quot;Objectif atteint&quot;; &quot;À revoir&quot;)</code></li>
+<code>=SI(A2&gt;50; &quot;Objectif atteint&quot;; &quot;A revoir&quot;)</code></li>
 </ul>
 <h3 id="12-fonctions-de-comptage-et-de-somme-conditionnelles">1.2 Fonctions de Comptage et de Somme Conditionnelles</h3>
 <table>
 <thead>
 <tr>
 <th style="text-align:left">FONCTION</th>
-<th style="text-align:left">RÔLE</th>
+<th style="text-align:left">ROLE</th>
 <th style="text-align:left">SYNTAXE EXEMPLE</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left"><strong>=<a href="http://NB.SI">NB.SI</a>(plage; critère)</strong></td>
-<td style="text-align:left">Compte le nombre de cellules d'une plage qui respectent <strong>un seul</strong> critère.</td>
+<td style="text-align:left"><strong>=<a href="http://NB.SI">NB.SI</a>(plage; critere)</strong></td>
+<td style="text-align:left">Compte le nombre de cellules d'une plage qui respectent <strong>un seul</strong> critere.</td>
 <td style="text-align:left"><code>=NB.SI(D:D;&quot;Bovins&quot;)</code> (Compte le nombre de bovins)</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>=<a href="http://SOMME.SI">SOMME.SI</a>(plage; critère; plage_somme)</strong></td>
-<td style="text-align:left">Additionne les valeurs d'une plage si <strong>un seul</strong> critère est respecté.</td>
-<td style="text-align:left"><code>=SOMME.SI(B:B;&quot;Mâle&quot;; C:C)</code> (Somme des poids des mâles)</td>
+<td style="text-align:left"><strong>=<a href="http://SOMME.SI">SOMME.SI</a>(plage; critere; plage_somme)</strong></td>
+<td style="text-align:left">Additionne les valeurs d'une plage si <strong>un seul</strong> critere est respecte.</td>
+<td style="text-align:left"><code>=SOMME.SI(B:B;&quot;Male&quot;; C:C)</code> (Somme des poids des males)</td>
 </tr>
 </tbody>
 </table>
 <hr>
-<h2 id="2-synthèse-rapide--tableaux-croisés-dynamiques-tcd">2. SYNTHÈSE RAPIDE : Tableaux Croisés Dynamiques (TCD)</h2>
-<p>Le <strong>TCD</strong> est l'outil le plus puissant pour <strong>synthétiser des milliers de lignes de données</strong> en quelques secondes. Il est indispensable pour tout rapport d'analyse.</p>
-<h3 id="21-création-et-utilisation">2.1 Création et Utilisation</h3>
+<h2 id="2-synthese-rapide--tableaux-croises-dynamiques-tcd">2. SYNTHESE RAPIDE : Tableaux Croises Dynamiques (TCD)</h2>
+<p>Le <strong>TCD</strong> est l'outil le plus puissant pour <strong>synthetiser des milliers de lignes de donnees</strong> en quelques secondes. Il est indispensable pour tout rapport d'analyse.</p>
+<h3 id="21-creation-et-utilisation">2.1 Creation et Utilisation</h3>
 <ol>
-<li><strong>Préparation :</strong> Assurez-vous que vos données sont au format <strong>&quot;Tableau&quot;</strong> (voir Guide 2) et qu'il n'y a <strong>aucune ligne vide</strong> ou fusionnée.</li>
-<li><strong>Création :</strong> Cliquez n'importe où dans votre tableau &gt; Onglet <strong>Insertion</strong> &gt; <strong>Tableau Croisé Dynamique</strong> (TCD).</li>
+<li><strong>Preparation :</strong> Assurez-vous que vos donnees sont au format <strong>&quot;Tableau&quot;</strong> (voir Guide 2) et qu'il n'y a <strong>aucune ligne vide</strong> ou fusionnee.</li>
+<li><strong>Creation :</strong> Cliquez n'importe où dans votre tableau &gt; Onglet <strong>Insertion</strong> &gt; <strong>Tableau Croise Dynamique</strong> (TCD).</li>
 </ol>
 <table>
 <thead>
 <tr>
 <th style="text-align:left">ZONE DU TCD</th>
-<th style="text-align:left">RÔLE ET UTILISATION</th>
-<th style="text-align:left">EXEMPLE CLÉ</th>
+<th style="text-align:left">ROLE ET UTILISATION</th>
+<th style="text-align:left">EXEMPLE CLE</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left"><strong>Lignes</strong></td>
-<td style="text-align:left">Ce que vous voulez <strong>étudier</strong> (les catégories).</td>
-<td style="text-align:left">Glissez <em>Type d'Animal</em> ou <em>Année</em>.</td>
+<td style="text-align:left">Ce que vous voulez <strong>etudier</strong> (les categories).</td>
+<td style="text-align:left">Glissez <em>Type d'Animal</em> ou <em>Annee</em>.</td>
 </tr>
 <tr>
 <td style="text-align:left"><strong>Valeurs</strong></td>
 <td style="text-align:left">Ce que vous voulez <strong>calculer</strong> (Toujours des nombres !).</td>
-<td style="text-align:left">Glissez <em>Poids</em> ou <em>Coût</em>. Changez le calcul en <strong>Moyenne</strong> ou <strong>Somme</strong>.</td>
+<td style="text-align:left">Glissez <em>Poids</em> ou <em>Cout</em>. Changez le calcul en <strong>Moyenne</strong> ou <strong>Somme</strong>.</td>
 </tr>
 </tbody>
 </table>
